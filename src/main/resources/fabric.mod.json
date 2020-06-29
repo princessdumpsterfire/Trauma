@@ -1,0 +1,38 @@
+
+{
+  "schemaVersion": 1,
+  "id": "trauma",
+  "version": "${version}",
+
+  "name": "Trauma",
+  "description": "A careful re-thinking of Minecraft's health and healing mechanics.",
+  "authors": [
+    "princess dumpsterfire"
+  ],
+  "contact": {
+    "homepage": "https://eta.inf.net",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/trauma/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.eta_inf.trauma.Trauma"
+    ]
+  },
+  "mixins": [
+    "trauma.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.7.11",
+  "package": "net.eta_inf.trauma.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinLivingEntity",
+    "MixinPlayerEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
